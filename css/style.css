@@ -1,0 +1,66 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: black;
+}
+
+#img1{
+  width: 555px;
+  height: 564px;
+  border-radius: 25%;
+  position: relative;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+
+}
+.sound{
+  
+}
+#date{
+  margin-top: 25px;
+  top: 272px;
+  position: absolute;
+  font-weight: 700;
+}
+.center {
+  display: flex;
+  height: 750px;
+  width: 1535px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position:relative;
+}
+#back{
+  width: 556px;
+  position: absolute;
+  height: 564px;
+}
+.img{
+  position: absolute;
+
+}
+#arrowhr{
+  position: absolute;
+  height: 174px;
+  width: 55px;
+  bottom: 376px;
+  transform: rotate(57Deg);
+  transform-origin: bottom center;
+}
+#arrowsec{
+  position: absolute;
+  height: 231px;
+  width: 16px;
+  bottom: 374px;
+  transform: rotate(57Deg);
+  transform-origin: bottom center;
+}
+#arrowmin {
+    position: absolute;
+    height: 208px;
+    width: 41px;
+    bottom: 377px;
+    transform: rotate(57Deg);
+    transform-origin: bottom center;
+}
